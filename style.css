@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DFA06E;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+    font-size: 9vmin;
+    color: #412722;
+    background-color: #F5F3BB;
+}
+
+.reset-btn{
+    height: 10vmin;
+    width: 24vmin;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+    font-size: 5.5vmin;
+    color: #F5F3BB;
+    background-color: #412722;
+}
+
+.winner{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #412722;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+.start-btn{
+    margin-top: 50px;
+    height: 15vmin;
+    width: 35vmin;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+    font-size: 5.5vmin;
+    color: #F5F3BB;
+    background-color: #412722;
+}
+
